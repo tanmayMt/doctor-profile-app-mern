@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>All Doctors</title>
+</head>
+
+<body>
+    <h1>Doctor List</h1>
+    <ul>
+        <% doctors.forEach(doctor=> { %>
+            <li>
+                <strong>
+                    <%= doctor.name %>
+                </strong> — <%= doctor.specialization %>
+            </li>
+            <% }) %>
+    </ul>
+</body>
+
+</html>

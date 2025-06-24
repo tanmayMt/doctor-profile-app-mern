@@ -1,0 +1,82 @@
+/* Background */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Neon Heading */
+.neon-heading {
+    font-size: 3rem;
+    text-align: center;
+    color: #00ffe5;
+    margin: 40px 0 20px;
+    text-shadow: 0 0 5px #00ffe5, 0 0 10px #00ffe5, 0 0 20px #00ffe5;
+}
+
+/* Glass Background */
+.glass-bg {
+    padding: 50px;
+    backdrop-filter: blur(8px);
+}
+
+/* Grid layout */
+.doctor-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Glass card design */
+.glass-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    padding: 25px;
+    width: 280px;
+    color: white;
+    box-shadow: 0 8px 32px 0 rgba(0, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.3);
+}
+
+/* Doctor Name */
+.glass-card h4 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #00ffe5;
+    text-shadow: 0 0 8px #00ffe5;
+}
+
+/* Doctor Specialization */
+.glass-card p {
+    font-size: 1.1rem;
+    color: #ddd;
+}
+
+/* Button */
+.book-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #00ffe5;
+    border: none;
+    color: #000;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.book-btn:hover {
+    background: #fff;
+    color: #00c3ff;
+    box-shadow: 0 0 10px #00c3ff;
+}
